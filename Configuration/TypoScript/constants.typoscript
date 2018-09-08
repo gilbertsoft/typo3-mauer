@@ -1,0 +1,58 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:gsmauer/Resources/Public/Images/logo.svg
+        fileInverted = EXT:gsmauer/Resources/Public/Images/logo-inverted.svg
+        height = 52
+        width = 192
+        alt = Mauer-Klan
+        linktitle = Mauer-Klan
+    }
+    favicon {
+        file = EXT:gsmauer/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:gsmauer/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:gsmauer/Resources/Private/Partials/Page/
+        templateRootPath = EXT:gsmauer/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:gsmauer/Resources/Private/Layouts/
+        partialRootPath = EXT:gsmauer/Resources/Private/Partials/
+        templateRootPath = EXT:gsmauer/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:gsmauer/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:gsmauer/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:gsmauer/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+#######################################
+### REMOVE BOOTSTRAP LESS CONSTANTS ###
+#######################################
+#plugin.bootstrap_package.settings.less >
+#plugin.bootstrap_package.settings.overrideLessVariables >

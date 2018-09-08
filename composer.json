@@ -1,0 +1,28 @@
+{
+    "name": "gilbertsoft/typo3-mauer",
+    "description": "Sitepackage Vikings Mauer-Klan",
+    "type": "typo3-cms-extension",
+    "keywords": ["TYPO3 CMS"],
+    "homepage": "https://gilbertsoft.com",
+    "license": ["GPL-3.0-or-later"],
+    "require": {
+        "typo3/cms-core": "^8.7.0 || ^9.0",
+        "typo3/cms-rte-ckeditor": "^8.7.0 || ^9.0",
+		"sjbr/static-info-tables": "^6.5.1",
+		"dmitryd/typo3-realurl": "^2.4.0",
+        "bk2k/bootstrap-package": "^9.1.0",
+		"gilbertsoft/gswarranty": "*",
+		"gilbertsoft/gscacheconfig": "*",
+		"gilbertsoft/gsprotectedconfig": "*",
+		"gilbertsoft/gsfavicon": "*"
+    },
+	"replace": {
+		"gsmauer": "self.version",
+		"typo3-ter/gsmauer": "self.version"
+	},
+    "autoload": {
+        "psr-4": {
+            "Gilbertsoft\\Mauer\\": "Classes/"
+        }
+    }
+}

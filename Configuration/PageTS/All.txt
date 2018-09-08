@@ -1,0 +1,7 @@
+#
+# PageTS for Sitepackage Mauer-Klan
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsmauer/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsmauer/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsmauer/Configuration/PageTS/TCEMAIN.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsmauer/Configuration/PageTS/Mod/WebLayout/BackendLayouts.txt">
