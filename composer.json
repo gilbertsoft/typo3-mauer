@@ -7,7 +7,8 @@
     "license": ["GPL-3.0-or-later"],
     "require": {
         "typo3/cms-core": "^8.7.0 || ^9.5.0",
-        "bk2k/bootstrap-package": "^10.0.2",
+		"typo3/cms-introduction": "*",
+        "bk2k/bootstrap-package": "*",
 		"gilbertsoft/gswarranty": "*",
 		"gilbertsoft/gscacheconfig": "*",
 		"gilbertsoft/gsprotectedconfig": "*",
