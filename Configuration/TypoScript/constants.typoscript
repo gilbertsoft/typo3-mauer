@@ -30,7 +30,7 @@ page {
 ##################
 ### EXTENSIONS ###
 ##################
-gilbertsoft.gsfavicon.path = EXT:gsmauer/Resources/Public/Icons/
+gilbertsoft.gsfavicon.path = typo3conf/ext/gsmauer/Resources/Public/Icons/
 
 plugin.bootstrap_package {
     view {
