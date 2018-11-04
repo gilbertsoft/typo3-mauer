@@ -1,7 +1,7 @@
 ######################
 #### DEPENDENCIES ####
 ######################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsfavicon/Configuration/TypoScript/constants.typoscript">
 
 
 ############
@@ -30,6 +30,8 @@ page {
 ##################
 ### EXTENSIONS ###
 ##################
+gilbertsoft.gsfavicon.path = EXT:gsmauer/Resources/Public/Icons/
+
 plugin.bootstrap_package {
     view {
         layoutRootPath = EXT:gsmauer/Resources/Private/Layouts/
