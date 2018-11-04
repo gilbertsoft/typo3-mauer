@@ -9,8 +9,8 @@
 ############
 page {
     logo {
-        file = EXT:gsmauer/Resources/Public/Images/logo.svg
-        fileInverted = EXT:gsmauer/Resources/Public/Images/logo-inverted.svg
+        file = EXT:gsmauer/Resources/Public/Images/logo.png
+        fileInverted = EXT:gsmauer/Resources/Public/Images/logo-inverted.png
         height = 52
         width = 192
         alt = Mauer-Klan
