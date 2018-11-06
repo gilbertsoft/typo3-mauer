@@ -4,11 +4,11 @@
 @import "variables";
 
 //
-// Theme
-//
-@import "bootswatch";
-
-//
 // Import needed Bootstrap Package Files
 //
 @import "../../../../../bootstrap_package/Resources/Public/Scss/Theme/theme";
+
+//
+// Theme
+//
+@import "bootswatch";
