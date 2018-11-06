@@ -8,12 +8,8 @@
 #### PAGE ####
 ##############
 page {
-    includeCSSLibs {
-        googlewebfont >
-    }
-
     includeCSS {
-        theme = EXT:gsmauer/Resources/Public/Css/theme.min.css
+        theme = EXT:gsmauer/Resources/Public/Scss/Theme/theme.scss
     }
 
     includeJSLibs {

@@ -4,6 +4,14 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:gsfavicon/Configuration/TypoScript/constants.typoscript">
 
 
+##############
+### CONFIG ###
+##############
+config {
+    typolinkEnableLinksAcrossDomains = 1
+}
+
+
 ############
 ### PAGE ###
 ############
@@ -12,9 +20,14 @@ page {
         file = EXT:gsmauer/Resources/Public/Images/logo.png
         fileInverted = EXT:gsmauer/Resources/Public/Images/logo-inverted.png
         height = 52
-        width = 192
+        width = 236
         alt = Mauer-Klan
         linktitle = Mauer-Klan
+    }
+    theme {
+        copyright.text = Running with <a href="http://www.typo3.org" target="_blank">TYPO3</a> and <a href="https://github.com/benjaminkott/bootstrap_package" target="_blank">Bootstrap Package</a>.
+        meta.enable = 0
+        language.languageValue = auto
     }
     favicon {
         file = EXT:gsmauer/Resources/Public/Icons/favicon.ico
@@ -26,11 +39,16 @@ page {
     }
 }
 
+[treeLevel = 0]
+page.theme.navigation.style = default-transition
+page.theme.navigation.type = top
+[end]
+
 
 ##################
 ### EXTENSIONS ###
 ##################
-gilbertsoft.gsfavicon.path = typo3conf/ext/gsmauer/Resources/Public/Icons/
+plugin.gsfavicon.path = typo3conf/ext/gsmauer/Resources/Public/Icons/
 
 plugin.bootstrap_package {
     view {
@@ -50,11 +68,17 @@ plugin.bootstrap_package_contentelements {
         partialRootPath = EXT:gsmauer/Resources/Private/Partials/ContentElements/
         templateRootPath = EXT:gsmauer/Resources/Private/Templates/ContentElements/
     }
+    menu_thumbnail {
+        media.height = 170m
+        media.width = 170
+    }
 }
 
 
-#######################################
-### REMOVE BOOTSTRAP LESS CONSTANTS ###
-#######################################
-#plugin.bootstrap_package.settings.less >
-#plugin.bootstrap_package.settings.overrideLessVariables >
+################################
+### BOOTSTRAP SCSS CONSTANTS ###
+################################
+plugin.bootstrap_package.settings.scss {
+    primary = #e4c666
+    secondary = #013859
+}
