@@ -27,6 +27,10 @@ page {
     theme {
         copyright.text = Running with <a href="http://www.typo3.org" target="_blank">TYPO3</a> and <a href="https://github.com/benjaminkott/bootstrap_package" target="_blank">Bootstrap Package</a>.
         meta.enable = 0
+        navigation {
+            style = inverse
+            type = top
+        }
         language.languageValue = auto
     }
     favicon {
@@ -40,8 +44,7 @@ page {
 }
 
 [treeLevel = 0]
-page.theme.navigation.style = default-transition
-page.theme.navigation.type = top
+page.theme.navigation.style = inverse-transition
 [end]
 
 
