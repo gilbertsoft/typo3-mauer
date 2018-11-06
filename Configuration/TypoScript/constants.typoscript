@@ -26,12 +26,13 @@ page {
     }
     theme {
         copyright.text = Running with <a href="http://www.typo3.org" target="_blank">TYPO3</a> and <a href="https://github.com/benjaminkott/bootstrap_package" target="_blank">Bootstrap Package</a>.
+        googleFont.font = Quattrocento
+        language.languageValue = auto
         meta.enable = 0
         navigation {
             style = inverse
             type = top
         }
-        language.languageValue = auto
     }
     favicon {
         file = EXT:gsmauer/Resources/Public/Icons/favicon.ico
