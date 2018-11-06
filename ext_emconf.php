@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = [
             'gswarranty' => '*',
             'gscacheconfig' => '*',
             'gsprotectedconfig' => '*',
-            'gsfavicon' => '*'
+            'gsfavicon' => '3.0.0-3.99.99'
             ],
         'conflicts' => [
         ],
