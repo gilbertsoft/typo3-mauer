@@ -9,15 +9,16 @@
         "typo3/cms-core": "^8.7 || ^9.5",
         "typo3/cms-rte-ckeditor": "^8.7 || ^9.5",
         "bk2k/bootstrap-package": "^10.0",
-		"gilbertsoft/gswarranty": "*",
-		"gilbertsoft/gscacheconfig": "*",
-		"gilbertsoft/gsprotectedconfig": "*",
-		"gilbertsoft/gsfavicon": "^3.0"
+        "gilbertsoft/gswarranty": "*",
+        "gilbertsoft/gscacheconfig": "*",
+        "gilbertsoft/gsprotectedconfig": "*",
+        "gilbertsoft/gsfavicon": "^3.0",
+        "pixelink/simplepoll": "^3.0"
     },
-	"replace": {
-		"gsmauer": "self.version",
-		"typo3-ter/gsmauer": "self.version"
-	},
+    "replace": {
+        "gsmauer": "self.version",
+        "typo3-ter/gsmauer": "self.version"
+    },
     "autoload": {
         "psr-4": {
             "Gilbertsoft\\Mauer\\": "Classes/"
