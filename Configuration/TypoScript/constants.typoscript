@@ -25,10 +25,14 @@ page {
         linktitle = Mauer-Klan
     }
     theme {
+        cookieconsent.location = 1
         copyright.text = Running with <a href="http://www.typo3.org" target="_blank">TYPO3</a> and <a href="https://github.com/benjaminkott/bootstrap_package" target="_blank">Bootstrap Package</a>.
         googleFont.font = Quattrocento
         language.languageValue = auto
-        meta.enable = 0
+        meta {
+            enable = 1
+            navigationValue = 78
+        }
         navigation {
             style = inverse
             type = top
