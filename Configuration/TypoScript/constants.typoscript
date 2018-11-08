@@ -19,8 +19,8 @@ page {
     logo {
         file = EXT:gsmauer/Resources/Public/Images/logo.jpg
         fileInverted = EXT:gsmauer/Resources/Public/Images/logo.jpg
-        height = 100
-        width = 125
+        height = 500
+        width = 401
         alt = Mauer-Klan
         linktitle = Mauer-Klan
     }
