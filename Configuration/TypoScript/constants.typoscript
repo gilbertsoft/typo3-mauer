@@ -17,10 +17,10 @@ config {
 ############
 page {
     logo {
-        file = EXT:gsmauer/Resources/Public/Images/logo.jpg
-        fileInverted = EXT:gsmauer/Resources/Public/Images/logo.jpg
-        height = 500
-        width = 401
+        file = EXT:gsmauer/Resources/Public/Images/logo-lager.png
+        fileInverted = EXT:gsmauer/Resources/Public/Images/logo-lager.png
+        height = 150
+        width = 187
         alt = Mauer-Klan
         linktitle = Mauer-Klan
     }
