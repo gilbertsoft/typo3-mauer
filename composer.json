@@ -14,7 +14,8 @@
         "gilbertsoft/gsprotectedconfig": "*",
         "gilbertsoft/gsfavicon": "^3.0",
         "typo3-ter/simplepoll": "^3.0",
-        "linecorp/line-bot-sdk": "^3.6"
+        "linecorp/line-bot-sdk": "^3.6",
+        "georgringer/news": "^7.0"
     },
     "replace": {
         "gsmauer": "self.version",
