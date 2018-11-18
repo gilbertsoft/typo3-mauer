@@ -56,9 +56,10 @@ page.theme.navigation.style = inverse-transition
 ##################
 ### EXTENSIONS ###
 ##################
-plugin.gsfavicon.path = typo3conf/ext/gsmauer/Resources/Public/Icons/
+plugin {
+    gsfavicon.path = EXT:gsmauer/Resources/Public/Icons/
 
-plugin.bootstrap_package {
+    bootstrap_package {
     view {
         layoutRootPath = EXT:gsmauer/Resources/Private/Layouts/
         partialRootPath = EXT:gsmauer/Resources/Private/Partials/
